@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+
+.item {
+    width: 300px;
+    height: 300px;
+    background-color: #FFE3C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+    font-size: 26px;
+}
+
+.rubik-pixels {
+    font-family: 'Rubik Pixels', cursive;
+}
+
+.sedgwick-ave-display {
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.dancing-script {
+    font-family: 'Dancing Script', cursive;
+}
+
+.fjalla-one {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.indie-flower {
+    font-family: 'Indie Flower', cursive;
+}
