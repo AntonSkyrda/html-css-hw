@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #4F6F51;
+}
+h1 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 20px 0;
+    color: #636363;
+}
+
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 100px;
+}
+
+.item {
+    width: 220px;
+    height: 220px;
+    background-color: #D2E3C9;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.item:hover {
+    transform: scale(1.1);
+}
+
