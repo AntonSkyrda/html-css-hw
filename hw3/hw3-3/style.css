@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+#top-section {
+    background-color: indianred;
+}
+
+#middle-section {
+    background-color: skyblue;
+}
+
+#bottom-section {
+    background-color: mediumseagreen;
+}
+
+
+img {
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+    cursor: pointer;
+}
