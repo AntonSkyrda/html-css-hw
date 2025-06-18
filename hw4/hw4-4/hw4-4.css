@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+header, footer, section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 header {
     height: 22vh;
     background-color: #D9D9D9;
@@ -60,3 +66,10 @@ footer {
     background-color: #644C4C;
 }
 
+section p {
+    color: white;
+}
+
+p {
+    font-size: 2rem;
+}
