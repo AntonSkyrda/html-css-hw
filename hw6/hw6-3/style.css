@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-content {
+    margin: 50px auto;
+    width: 900px;
+    border: 2px solid lightgray;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-content img {
+    width: 60%;
+    margin: 100px auto;
+}
+
+input {
+    width: 80%;
+    height: 80px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    font-size: 1.5rem;
+}
+
+form .submit {
+    height: 80px;
+    background-color: #68B5FA;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    margin: 20px;
+    font-size: 2rem;
+}
+
+form .submit:hover {
+    background-color: white;
+    border: 2px solid #68B5FA;
+    color: #68B5FA;
+}
+
+h2 {
+    color: grey;
+    margin: 20px auto;
+    font-size: 2.5rem;
+}
+
+form ul {
+    list-style: none;
+}
+
+form ul li {
+    margin: 20px;
+}
+
+
+
+form ul li::before {
+    content: "";
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png");
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+form ul li a {
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #3B579D;
+}
+
+form p {
+    margin: 20px auto 50px auto;
+}
+
+form p a{
+    text-decoration: none;
+    color: #293f73;
+    font-size: 1.9rem;
+}
+
+.register {
+    width: 900px;
+    border: 2px solid lightgray;
+    margin: -20px auto;
+}
+
+.register p {
+    text-align: center;
+    margin: 50px auto;
+    font-size: 2rem;
+}
+
+.register p a {
+    text-decoration: none;
+    color: #44a3f8;
+    font-weight: bold;
+}
