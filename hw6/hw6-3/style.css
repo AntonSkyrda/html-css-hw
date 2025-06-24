@@ -8,6 +8,10 @@
     margin: 50px auto;
     width: 900px;
     border: 2px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 form {
@@ -53,19 +57,21 @@ h2 {
     color: grey;
     margin: 20px auto;
     font-size: 2.5rem;
+
 }
 
-form ul {
+.main-content ul {
     list-style: none;
+
 }
 
-form ul li {
+.main-content ul li {
     margin: 20px;
 }
 
 
 
-form ul li::before {
+.main-content ul li::before {
     content: "";
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png");
     width: 30px;
@@ -75,7 +81,7 @@ form ul li::before {
     position: absolute;
 }
 
-form ul li a {
+.main-content ul li a {
     margin-left: 40px;
     text-decoration: none;
     font-size: 2rem;
@@ -83,11 +89,11 @@ form ul li a {
     color: #3B579D;
 }
 
-form p {
+.main-content p {
     margin: 20px auto 50px auto;
 }
 
-form p a{
+.main-content p a{
     text-decoration: none;
     color: #293f73;
     font-size: 1.9rem;
