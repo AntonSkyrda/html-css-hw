@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    font-family: "Inter", sans-serif;
+}
+
+.wrapper .item {
+    width: 272px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper .item img {
+    width: 150px;
+}
+
+.wrapper .item h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    vertical-align: middle;
+    margin: 20px 0 10px 0;
+}
+
+.wrapper .item p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #7687A1;
+
+}
