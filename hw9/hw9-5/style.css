@@ -6,17 +6,15 @@
 .grid-wrapper {
     display: grid;
     height: 100vh;
-    grid-template-columns: 30% 30% 40%;
+    grid-template-columns: 60% 40%;
     grid-template-rows: 5% 40% 33% 10% 12%;
     grid-template-areas:
-    "header header header"
-    "left-section left-section right-top-section"
-    "left-section left-section right-bottom-section"
-    "bottom-section bottom-section bottom-section"
-    "footer footer footer"
+    "header header"
+    "left-section right-top-section"
+    "left-section  right-bottom-section"
+    "bottom-section bottom-section"
+    "footer footer"
 ;
-
-
 }
 
 header {
